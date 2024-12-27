@@ -7,7 +7,7 @@ def start_program():
   binary_result = check_user_input(user_input)
   
   print(f"\nThe number entered {user_input} in binary base is: {binary_result}")
-  
+
 def check_user_input(input):
   try:
     val = int(input)
@@ -23,7 +23,7 @@ def decimal_to_binary(val):
   if val == 0:
     return "0"
   binary = []
-  
+
   while val > 0:
     remainder = val % 2
     binary.append(str(remainder))
